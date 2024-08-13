@@ -189,3 +189,60 @@
         gap: 20px;
         justify-content: space-between;
       }
+
+      /* ============== Styles Run Sections =============== */
+
+      .run-sections{
+        width: 1060px;
+        height: 370px;
+        margin: 80px auto;
+        border: 2px solid aliceblue;
+        background-color: rgb(34, 34, 34);
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        
+      }
+
+      .run-img{
+        text-align: center;
+        width: 350px;
+        margin: auto;
+      }
+      .run-img img{
+        width: 350px;
+        border-radius: 15px;
+        
+      }
+
+      .run-content{
+        width: 443px;
+        height: 290px;
+        border: 2px solid rebeccapurple;
+        margin: auto;
+      }
+
+      .run-content h3{
+        font-size: 44px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+      }
+
+      .run-content p{
+        font-size: 14px;
+        font-weight: normal;
+        color:rgba(255, 255, 255, 0.5);
+      }
+
+      .run-content button{
+        font-size: 14px;
+        font-weight: normal;
+        background-color: rgb(230, 83, 60);
+        color: rgb(255, 255, 255);
+        border: none;
+        width: 110px;
+        padding: 10px 14px;
+        margin: auto;
+        border-radius: 48px;
+        cursor: pointer;
+      }
