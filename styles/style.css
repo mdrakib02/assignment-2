@@ -1,0 +1,191 @@
+    *{
+        width: 100%;
+        
+       
+    }
+
+
+    .inter-font {
+        font-family: "Inter";
+        font-optical-sizing: auto;
+        /* background-color: rgba(255, 255, 255, 0.025); */
+      }
+
+      header{
+        padding-top: 50px;
+        background: linear-gradient(180.00deg, rgb(52, 52, 52),rgb(0, 0, 0) 100%);
+      }
+      
+
+      nav{
+        width: 1060px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .nav-content{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 39px;
+        padding: 0;
+      }
+      nav .nav-iteams{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        cursor: pointer;
+        padding: 0%;
+      }
+      .nav-iteams li{
+        font-size: 18px;
+        font-weight: normal;
+        color: rgb(255, 255, 255);
+        list-style: none;
+
+      }
+
+      nav #logo{
+        font-size: 36px;
+        font-weight: 800;
+        color: rgb(230, 83, 60);
+        margin: 0;
+        font-style: italic;
+      }
+
+      #home{
+        background-color:rgb(230, 83, 60);
+        padding: 8px 14px;
+        border-radius: 48px;
+      }
+
+      /*  Hero Sections Styles  */
+
+      .hero-sectioons{
+        width: 1060px;
+        margin: 0 auto ;
+        border: 2px   solid rebeccapurple;
+        display: flex;
+        padding-top: 50px;
+      }
+
+      .hero-content h1{
+        font-size: 78px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+      }
+      .hero-content p{
+        font-size: 16px;
+        font-weight: normal;
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .hero-content .duble-btn{
+        display: flex;
+        gap: 14px;
+        margin-top: 20px;
+      }
+      #btn1{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 12px 14px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(230, 83, 60);
+        border: none;
+        border-radius: 48px;
+        cursor: pointer;
+      }
+
+      #btn2{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 12px 12px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(17, 17, 17);
+        border-radius: 48px;
+        border: 1px solid  rgb(255, 255, 255);
+        cursor: pointer;
+
+      }
+
+      .hero-img{
+        background-image: url(../images/hero.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+      }
+
+      .HeroBox2{
+        width: 206px;
+        height: 96px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+      }
+
+      /* ================= MAin Styles ============================== */
+
+
+      /* =================Change Your Habits ===================== */
+      main{
+        background-color: rgb(0, 0, 0);
+      }
+      .chnge-sections{
+        width: 1044px;
+        border: 2px solid rebeccapurple;
+        margin: auto;
+        padding-top: 50px ;
+      }
+
+      .change-content{
+        width: 671px;
+        margin: auto;
+        border: 2px solid rebeccapurple;
+      }
+
+      .change-content h3{
+        color: rgb(255, 255, 255);
+        font-size: 44px;
+        font-weight: 900;
+        text-align: center;
+      }
+
+      .change-content p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+      }
+
+      .img-box{
+        width: 230px;
+        text-align: center;
+        border: 3px solid red;
+      }
+      .img-box img{
+        border-radius: 100%;
+        width: 70%;
+        height: auto;
+      }
+      .img-box h4{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+      }
+      .img-box p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+      }
+
+      .img-content{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+      }
