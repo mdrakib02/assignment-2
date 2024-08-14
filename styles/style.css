@@ -184,6 +184,7 @@
       }
 
       .img-content{
+        margin-top: 40px;
         display: flex;
         flex-direction: row;
         gap: 20px;
@@ -246,3 +247,64 @@
         border-radius: 48px;
         cursor: pointer;
       }
+
+/* =================== BMI Calculator ========================= */
+
+.bmi{
+  width: 600px;
+  height: auto;
+  margin: 50px auto;
+  border: 2px solid aliceblue;
+}
+.bmi h3{
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.bmi p{
+  font-size: 14px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ====================== BMI CALCULATE ================= */
+
+.bmi-sections{
+  width: 100%;
+  margin: auto;
+  background-color: rgb(34, 34, 34);
+}
+
+.bmi-calculate{
+  width: 1060px;
+  margin: 50px auto;
+  border: 2px solid aliceblue;
+  display: flex;
+}
+.bmi-chart{
+  width: 570px;
+  height: 400px;
+  border: 2px solid rebeccapurple;
+}
+.bmi-chart h3{
+  font-size: 28px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.chart{
+  border: 2px solid aliceblue;
+}
+
+.bmi-form{
+  width: 570px;
+  height: 400px;
+  border: 2px solid rebeccapurple;
+}
+
+.bmi-form h3{
+  font-size: 28px;
+  font-weight: 700;
+  color: aliceblue;
+}
