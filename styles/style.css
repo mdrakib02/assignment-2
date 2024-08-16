@@ -64,7 +64,6 @@
       .hero-sectioons{
         width: 1060px;
         margin: 0 auto ;
-        border: 2px   solid rebeccapurple;
         display: flex;
         padding-top: 50px;
       }
@@ -199,7 +198,6 @@
       }
       .chnge-sections{
         width: 1044px;
-        border: 2px solid rebeccapurple;
         margin: auto;
         padding-top: 50px ;
       }
@@ -207,7 +205,6 @@
       .change-content{
         width: 671px;
         margin: auto;
-        border: 2px solid rebeccapurple;
       }
 
       .change-content h3{
@@ -227,7 +224,6 @@
       .img-box{
         width: 230px;
         text-align: center;
-        border: 3px solid red;
       }
       .img-box img{
         border-radius: 100%;
@@ -261,7 +257,6 @@
         width: 1060px;
         height: 370px;
         margin: 80px auto;
-        border: 2px solid aliceblue;
         background-color: rgb(34, 34, 34);
         border-radius: 15px;
         display: flex;
@@ -283,7 +278,6 @@
       .run-content{
         width: 443px;
         height: 290px;
-        border: 2px solid rebeccapurple;
         margin: auto;
       }
 
@@ -318,12 +312,12 @@
   width: 600px;
   height: auto;
   margin: 50px auto;
-  border: 2px solid aliceblue;
 }
 .bmi h3{
   font-size: 36px;
   font-weight: 700;
   color: rgb(255, 255, 255);
+  margin-bottom: 20px;
 }
 
 .bmi p{
@@ -345,7 +339,6 @@
 .bmi-calculate{
   width: 1060px;
   margin: 50px auto;
-  border: 2px solid aliceblue;
   display: flex;
   justify-content: space-between;
 }
@@ -462,7 +455,6 @@
 .Teal-headline{
   width: 600px;
   margin: 0 auto;
-  border: 2px solid rebeccapurple;
 }
 
 .Teal-headline h3{
@@ -470,6 +462,7 @@
   font-weight: 700;
   color: rgb(255, 255, 255);
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .Teal-headline p{
@@ -481,43 +474,95 @@
 
 .team-img-box{
   width: 1060px;
+
   margin: 50px auto;
   margin-bottom: 0;
   border: 2px solid aquamarine;
   border-radius: 18px;
-  /* background: rgba(255, 255, 255, 0.1); */
+  background: rgba(255, 255, 255, 0.1);
   height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: center;
+  
   
 }
-.img-boxes{
-  width: 300px;
-  height: 250px;
+
+.img-boxes1{
+  width: 340px;
+  height: 280px;
   border-radius: 12px;
-  border: 2px solid rebeccapurple;
+  background-image: url('../images/trainer1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-boxes2{
+  width: 340px;
+  height: 280px;
+  border-radius: 12px;
+  background-image: url('../images/trainer2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-boxes3{
+  width: 340px;
+  height: 280px;
+  border-radius: 12px;
+  background-image: url('../images/trainer3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-boxes4{
+  width: 340px;
+  height: 280px;
+  border-radius: 12px;
+  background-image: url('../images/trainer4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-boxes5{
+  width: 340px;
+  height: 280px;
+  border-radius: 12px;
+  background-image: url('../images/trainer5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-boxes6{
+  width: 340px;
+  height: 280px;
+  border-radius: 12px;
+  background-image: url('../images/trainer6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.img-boxes img{
-  border-radius: 12px;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2),url(../images/exercise4.png);
-}
-
-.img-boxes h3{
-  /* position:absolute; */
-  font-size: 28px;
-  font-weight: 700;
-  /* bottom: 50px;
-  left: 10px;
-  z-index: 5; */
+#img-box-contents{
+  width: 150px;
   color: rgb(255, 255, 255);
+  padding-top: 150px;
+  padding-left: 20px;
+  
 }
-.img-boxes p{
-  font-size: 14px;
-  /* position:absolute; */
-  /* bottom: 30px;
-  left: 10px; */
-  z-index: 3;
+
+#h3-img-box{
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+}
+
+#p-img-box{
+  margin-top: 0;
+  font-size: 18px;
+  width: 600;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -591,4 +636,10 @@
   width: 800px;
   margin: auto;
   padding: 20px 0;
+}
+
+
+
+@media screen {
+  
 }
