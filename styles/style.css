@@ -390,3 +390,135 @@
   font-size: 14px;
   font-weight: normal;
 }
+
+
+
+/* =================== Styles Team Sections ============== */
+
+.Teal-headline{
+  width: 600px;
+  margin: 0 auto;
+  border: 2px solid rebeccapurple;
+}
+
+.Teal-headline h3{
+  font-size: 44px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.Teal-headline p{
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.team-img-box{
+  width: 1060px;
+  margin: 50px auto;
+  margin-bottom: 0;
+  border: 2px solid aquamarine;
+  border-radius: 18px;
+  /* background: rgba(255, 255, 255, 0.1); */
+  height: 600px;
+  
+}
+.img-boxes{
+  width: 300px;
+  height: 250px;
+  border-radius: 12px;
+  border: 2px solid rebeccapurple;
+}
+
+.img-boxes img{
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2),url(../images/exercise4.png);
+}
+
+.img-boxes h3{
+  /* position:absolute; */
+  font-size: 28px;
+  font-weight: 700;
+  /* bottom: 50px;
+  left: 10px;
+  z-index: 5; */
+  color: rgb(255, 255, 255);
+}
+.img-boxes p{
+  font-size: 14px;
+  /* position:absolute; */
+  /* bottom: 30px;
+  left: 10px; */
+  z-index: 3;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* ============== Footer Sections Styles================ */
+
+.footer{
+  width: 100%;
+  margin: auto;
+  background-color: rgb(52, 52, 52);
+}
+
+.footer-sections{
+  margin: 30px 0;
+  width: 1060px;
+  height: 300px;
+  margin: auto;
+  border: 2px solid rebeccapurple;
+  display: flex;
+  align-items: center;
+}
+
+.footer-headline{
+  width: 440px;
+  margin: auto;
+  border: 2px solid rebeccapurple;
+}
+
+.footer-headline h3{
+  font-size: 44px;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+  font-style: italic;
+}
+
+.footer-sections p{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+.footer-content{
+  width: 550px;
+  margin: auto;
+  border: 2px solid rebeccapurple;
+  display: flex;
+  gap: 30px;
+}
+
+.footer-content h4{
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.footer .footer-list-iteam{
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer .footer-list-iteam li{
+  margin-bottom: 5px;
+}
+
+
