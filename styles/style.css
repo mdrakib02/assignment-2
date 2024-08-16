@@ -521,4 +521,12 @@
   margin-bottom: 5px;
 }
 
-
+.footer-reserved{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  width: 800px;
+  margin: auto;
+  padding: 20px 0;
+}
