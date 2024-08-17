@@ -13,6 +13,7 @@
 
       header{
         padding-top: 50px;
+        padding-bottom: 10px;
         background: linear-gradient(180.00deg, rgb(52, 52, 52),rgb(0, 0, 0) 100%);
       }
       
@@ -44,6 +45,12 @@
         list-style: none;
 
       }
+      #menu{
+        width: 20px;
+        margin: 0;
+        background-color: antiquewhite;
+        display: none;
+      }
 
       nav #logo{
         font-size: 36px;
@@ -66,6 +73,7 @@
         margin: 0 auto ;
         display: flex;
         padding-top: 50px;
+        
       }
 
       .hero-content h1{
@@ -262,6 +270,7 @@
         display: flex;
         align-items: center;
         
+        
       }
 
       .run-img{
@@ -451,7 +460,9 @@
 
 
 /* =================== Styles Team Sections ============== */
-
+.team-sections{
+  display: none;
+}
 .Teal-headline{
   width: 600px;
   margin: 0 auto;
@@ -574,6 +585,7 @@
   width: 100%;
   margin: auto;
   background-color: rgb(52, 52, 52);
+  display: none;
 }
 
 .footer-sections{
@@ -640,6 +652,167 @@
 
 
 
-@media screen {
-  
+@media screen and (max-width: 576px) {
+
+  nav .nav-iteams {
+    display: none;
+  }
+
+  nav{
+    width: 393px;
+    padding: 10px auto;
+  }
+ nav #menu{
+  display: block;
+  margin-left: 200px;
+ }
+
+/* ============== Complete Responsive Nav Sections ================== */
+
+
+.hero-sectioons{
+  width: 393px;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+
+}
+.hero-content{
+  width: 352px;
+}
+.hero-content h1{
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.hero-content p{
+  font-size: 16px;
+  font-weight: normal;
+}
+.hero-img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.HeroBox1{
+  right: 30px;
+  top: 180px;
+}
+.HeroBox2{
+  bottom: 40px;
+}
+
+
+
+/* ========== Complete Responsive Hro Section for Mobile Device===================== */
+
+  .chnge-sections{
+    width: 393px;
+
+  }
+
+  .change-content{
+    width: 353px;
+    margin: auto;
+  }
+.change-content h3{
+  font-size: 28px;
+  font-weight: 700;
+}
+  .img-content{
+    display: flex;
+    flex-direction: column;
+    width: 353px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .img-box{
+    width: 250px;
+    margin: 10px auto;
+  }
+
+
+
+  /* =============== Complete Change Sections WIth Mobile Responsive ========================== */
+  .run-sections{
+    width: 353px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+  }
+  .run-content{
+    width: 330px;
+    margin: auto;
+    height: 200px;
+  }
+
+  .run-content button{
+    width: 100%;
+  }
+
+  .run-content h3{
+    font-size: 28px;
+    font-weight: 800;
+  }
+
+  .run-img{
+    width: 330px;
+    margin: auto;
+  }
+    .run-img img{
+      width: 100%;
+      height: auto;
+    }
+
+    /* =========== Complete Run Sections Width Mobile Responsive ================ */
+
+    .bmi{
+      width: 353px;
+      padding: 20px 0;
+      margin: 0 auto;
+    }
+
+
+    .bmi-calculate{
+      width: 353px;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .chart{
+      width: 280px;
+      margin: auto;
+    }
+    .bmi-chart{
+      width: 330px;
+      height: auto;
+    }
+
+    .bmi-form{
+      width: 330px;
+      height: auto;
+      margin: auto;
+      padding-bottom: 10px;
+    }
+    .form{
+ 
+    }
+    .form1{
+      width: 330px;
+      display: flex;
+      flex-direction: column;
+    }
+    .input{
+      width: 200px;
+    }
+
+    #select2{
+      width: 280px;
+    }
+    #select1{
+      width: 280px;
+    }
 }
