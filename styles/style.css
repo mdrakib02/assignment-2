@@ -461,7 +461,7 @@
 
 /* =================== Styles Team Sections ============== */
 .team-sections{
-  display: none;
+  
 }
 .Teal-headline{
   width: 600px;
@@ -488,7 +488,6 @@
 
   margin: 50px auto;
   margin-bottom: 0;
-  border: 2px solid aquamarine;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);
   height: 600px;
@@ -496,6 +495,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   align-items: center;
+  padding: 20px;
   
   
 }
@@ -585,7 +585,6 @@
   width: 100%;
   margin: auto;
   background-color: rgb(52, 52, 52);
-  display: none;
 }
 
 .footer-sections{
@@ -659,7 +658,7 @@
   }
 
   nav{
-    width: 393px;
+    width: 353px;
     padding: 10px auto;
   }
  nav #menu{
@@ -678,7 +677,8 @@
 
 }
 .hero-content{
-  width: 352px;
+  width: 332px;
+  margin: 0 auto;
 }
 .hero-content h1{
   font-size: 34px;
@@ -815,4 +815,86 @@
     #select1{
       width: 280px;
     }
+
+
+    /* ============== Complete BMI Section With Mobile Responsive ================ */
+
+    .team-sections{
+      width: 353px;
+      margin: auto;
+    }
+
+    .Teal-headline{
+      width: 353px;
+      margin: 0 auto;
+
+    }
+    .team-img-box{
+      display: flex;
+      flex-direction: column;
+      width: 330px;
+      height: 100%;
+      margin: auto;
+      border: none;
+    }
+    .img-boxes1{
+      width: 100%;
+      margin: auto;
+    }
+    .img-boxes2{
+      width: 100%;
+      margin: auto;
+    }
+    .img-boxes3{
+      width: 100%;
+      margin: auto;
+    }
+    .img-boxes4{
+      width: 100%;
+      margin: auto;
+    }
+    .img-boxes5{
+      width: 100%;
+      margin: auto;
+    }
+    .img-boxes6{
+      width: 100%;
+      margin: auto;
+    }
+    .img-boxes7{
+      width: 100%;
+      margin: auto;
+    }
+
+    /* ============== Complete Team Section With Mobile Responsive ========================== */
+
+    .footer{
+      width: 100%;
+    }
+    .footer-sections{
+      width: 353px;
+      margin: 0 auto;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-headline{
+      width: 330px;
+      margin: 10px auto;
+    }
+    .footer-content{
+      width: 330px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-reserved{
+      width: 330px;
+      margin: 15px auto;
+      text-align: center;
+    }
+
 }
